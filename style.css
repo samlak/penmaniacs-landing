@@ -1,0 +1,45 @@
+body {
+  background-color: #222222;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center; /* Added align-items style */
+  height: 100vh; /* Added height style */
+}
+
+.header {
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  padding: 32px;
+}
+
+
+h1 {
+  font-size: 48px;
+  margin: 0 auto 16px;
+  max-width: 800px;
+}
+
+p {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 16px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 36px; /* Reduced font size on small screens */
+  }
+
+  p {
+    font-size: 18px; /* Reduced font size on small screens */
+  }
+}
